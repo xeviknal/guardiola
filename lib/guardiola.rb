@@ -1,5 +1,9 @@
 require "guardiola/version"
 
 module Guardiola
-  # Your code goes here...
+  require 'open-uri'
+  require 'json'
+  require 'guardiola/path'
+  require 'guardiola/league'
+  require 'guardiola/guardiola'
 end
